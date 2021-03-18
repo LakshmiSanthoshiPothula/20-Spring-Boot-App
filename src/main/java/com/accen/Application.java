@@ -11,6 +11,7 @@ public class Application {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		
 		run.close();
+		//changes for HIS-134
 	}
 
 }
